@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+  font-family: 'Lato';
+}
+
 .clearfix:after {
   display: block;
   content: "";
