@@ -57,10 +57,11 @@ body {
 .title{
   background-color: #f5f5f5;
   width: 100%;
+  padding-top: 80px;
 }
 
 .title-inner-text{
-  padding-top: 330px;
+  padding-top: 250px;
   padding-bottom: 250px;
 }
 
@@ -95,28 +96,29 @@ body {
 .section-inner-text{
   width: 63%;
   float: left;
-  font-size: 20px;
+  font-size: 24px;
+  font: lighter;
   margin-top: 50px;
   font-family: "Raleway";
 }
 
 .section-inner-text h2{
   font-size: 24px;
+  margin-bottom: 35px;
 }
 
 .section-inner-text p{
   font-size: 20px;
-  padding-top: 35px;
 }
 
 .article{
   background-color: #f5f5f5;
+  padding-top: 60px;
+  padding-bottom: 70px;
 }
 
 .article-inner-title{
   font-size: 24px;
-  padding-top: 60px;
-  padding-bottom: 40px;
   font-family: "Raleway";
 }
 
@@ -128,7 +130,7 @@ body {
 
 .article-inner-box-inner{
   float: left;
-  margin: 0 100px 80px 0;
+  margin: 40px 100px 0 0;
   list-style: none;
   transition:all 0.3s;
   opacity: 0.7;
@@ -147,16 +149,31 @@ body {
   margin-right: 0;
 }
 
+.article-inner-box-inner li:nth-child(n+4){
+ margin-top: 80px;
+}
+
+.article-inner-footer{
+  margin-top: 90px;
+}
+
+.article-inner-footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-inner-footer li{
+  display: inline-flex;
+}
+
 .article-inner-footer-text{
-  padding: 10px 90px 70px 130px;
-  float: left;
   width: 43%;
+  margin-right: 90px;
 }
 
 .mail{
-  float: right;
   padding:  14px 20px;
-  margin-right: 250px;
   color: #fff;
   background-color: #74cfae;
   font-size: 12px;
@@ -171,23 +188,27 @@ body {
 .our-skill{
   background-color: #4e4e4e;
   color: #fff;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 .our-skill-text{
   font-size: 24px;
-  padding-top: 70px;
-  padding-bottom: 70px;
   font-family: "Raleway";
 }
 
 .our-skill-inner ul{
   display: flex;
-  padding-bottom: 100px;
+  margin-top: 60px;
 }
 
 .our-skill-inner ul li{
-  width: 25%;
+  margin-right:  180px;
 }
+
+.our-skill-inner li:nth-child(n+4){
+  margin-right: 0;
+ }
 
 .our-skill-inner p{
   font-size: 16px;
@@ -221,7 +242,13 @@ body {
   transition:all 0.3s;
   cursor:pointer;
 }
- 
+
+.nav a {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .nav ul li i {
   text-decoration: none;
   color: #74cfae;
