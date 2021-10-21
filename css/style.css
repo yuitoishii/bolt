@@ -120,6 +120,7 @@ body {
 .article-inner-title{
   font-size: 24px;
   font-family: "Raleway";
+  margin-bottom: 40px;
 }
 
 .article-inner-box{
@@ -130,7 +131,7 @@ body {
 
 .article-inner-box-inner{
   float: left;
-  margin: 40px 100px 0 0;
+  margin: 80px 0 0 100px;
   list-style: none;
   transition:all 0.3s;
   opacity: 0.7;
@@ -145,31 +146,27 @@ body {
   display: inline-block;
 }
 
-.article-inner-box,li:nth-child(3n){
-  margin-right: 0;
+.article-inner-box,li:nth-child(1){
+  margin-left: 0;
 }
 
-.article-inner-box-inner li:nth-child(n+4){
- margin-top: 80px;
+.article-inner-box,li:nth-child(4){
+  margin-left: 0;
+}
+
+.article-inner-box,li:nth-child(-n+3){
+ margin-top: 0;
 }
 
 .article-inner-footer{
-  margin-top: 90px;
-}
-
-.article-inner-footer ul{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.article-inner-footer li{
-  display: inline-flex;
+  margin-top: 90px;
 }
 
 .article-inner-footer-text{
   width: 43%;
-  margin-right: 90px;
 }
 
 .mail{
@@ -179,6 +176,7 @@ body {
   font-size: 12px;
   transition:all 0.3s;
   cursor:pointer;
+  margin-left: 90px;
 }
 
 .mail:hover{
@@ -195,11 +193,12 @@ body {
 .our-skill-text{
   font-size: 24px;
   font-family: "Raleway";
+  margin-bottom: 60px;
 }
 
 .our-skill-inner ul{
   display: flex;
-  margin-top: 60px;
+  justify-content: center;
 }
 
 .our-skill-inner ul li{
@@ -221,19 +220,11 @@ body {
 .nav {
   background-color: #f5f5f5;
   text-align: center;
-}
-
-.nav-inner{
   padding-top: 200px;
   padding-bottom: 200px;
 }
  
-.nav ul {
-  margin: 0 ;
-  padding: 0 ;
-}
- 
-.nav ul li{
+.nav ul li {
   list-style: none;
   display: inline-block;
   width: 15%;
@@ -241,12 +232,6 @@ body {
   padding-bottom: 20px;
   transition:all 0.3s;
   cursor:pointer;
-}
-
-.nav a {
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .nav ul li i {
