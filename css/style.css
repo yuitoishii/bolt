@@ -233,9 +233,9 @@ main {
 .footer{
   background-color: #74cfae;
   color: #fff; 
+  padding:20px 0 25px 0;
 }
 
 .footer-text{
   float: right;
-  padding:20px 0 25px 0;
 }
