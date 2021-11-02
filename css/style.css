@@ -201,9 +201,9 @@ main {
   margin-left:  180px;
 }
 
-.our-skill-inner li:nth-child(1){
+.our-skill-inner li:first-child{
   margin-left: 0;
- }
+}
 
 .our-skill-inner p{
   font-size: 16px;
@@ -226,13 +226,13 @@ main {
   display: inline-block;
   transition:all 0.3s;
   width: 15%;
-  padding: 20px 0;
   cursor:pointer;
 }
 
 .nav-inner li a{
   display: block;
   height: 100%;
+  padding: 20px 0;
   color: #74cfae;
 }
 
@@ -243,6 +243,9 @@ main {
 .footer{
   background-color: #74cfae;
   color: #fff; 
+}
+
+.footer-inner{
   padding:20px 0 25px 0;
 }
 
