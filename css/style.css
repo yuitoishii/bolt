@@ -10,7 +10,7 @@ body {
   clear: both;
 }
 
-.inner{
+.inner {
   margin: 0 auto;
   width: 1100px
 }
@@ -27,27 +27,27 @@ body {
   cursor:pointer;
 }
 
-.header{
+.header {
   position: fixed;
   background-color: #fff;
   width: 100%;
   z-index: 10000;
 }
 
-.header-inner{
+.header-inner {
   padding: 15px 0;
 }
 
-.fas{
+.fas {
   font-size: 50px;
 }
 
-.botton{
+.button {
   padding: 14px 12px;
   float: right;
 }
 
-.botton:hover{
+.button:hover {
   color:#333;
 }
 
@@ -55,47 +55,47 @@ main {
   padding-top: 80px;
 }
 
-.title{
+.title {
   background-color: #f5f5f5;
   width: 100%;
 }
 
-.title-inner{
+.title-inner {
   padding: 250px 0;
 }
 
-.title-inner-text h1{
+.title-inner-text h1 {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
 }
 
-.title-inner-text p{
+.title-inner-text p {
   font-size: 30px;
   color: #c0c0c0;
   margin-top: 20px;
 }
 
-.section{
+.section {
   background-color: #74cfae;
   color: #fff;
   font-family: "Raleway";
 }
 
-.section-inner{
+.section-inner {
   padding-top: 50px;
 }
 
-.section-inner-box{
+.section-inner-box {
   float: left;
   width: 30%;
 }
 
-.section-inner-box img{
+.section-inner-box img {
   vertical-align: bottom;
 }
 
-.section-inner-text{
+.section-inner-text {
   width: 63%;
   float: left;
   font-size: 24px;
@@ -104,35 +104,35 @@ main {
   font-family: "Raleway";
 }
 
-.section-inner-text h2{
+.section-inner-text h2 {
   font-size: 24px;
 }
 
-.section-inner-text p{
+.section-inner-text p {
   font-size: 20px;
   margin-top: 35px;
 }
 
-.article{
+.article {
   background-color: #f5f5f5;
 }
 
-.article-inner{
+.article-inner {
   padding: 60px 0 70px 0;
 }
 
-.article-inner-title{
+.article-inner-title {
   font-size: 24px;
   font-family: "Raleway";
 }
 
-.article-inner-box{
+.article-inner-box {
   overflow: hidden;
   margin-top: 40px;
   padding: 0;
 }
 
-.article-inner-box-inner{
+.article-inner-box-inner {
   float: left;
   margin: 80px 0 0 100px;
   list-style: none;
@@ -141,87 +141,89 @@ main {
   cursor:pointer;
 }
 
-.article-inner-box-inner:hover{
+.article-inner-box-inner:hover {
   opacity: 1; 
 }
 
-.article-inner-box-inner a{
+.article-inner-box-inner a {
   display: inline-block;
 }
 
-.article-inner-box li:nth-child(3n+1){
+.article-inner-box li:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.article-inner-box li:nth-child(-n+3){
+.article-inner-box li:nth-child(-n+3) {
  margin-top: 0;
 }
 
-.article-inner-footer{
+.article-inner-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 90px;
 }
 
-.article-inner-footer-text{
+.article-inner-footer-text {
   width: 43%;
 }
 
-.mail{
+.mail {
   padding:  14px 20px;
   margin-left: 90px;
 }
 
-.mail:hover{
+.mail:hover {
   color:#333;
 }
 
-.our-skill{
+.our-skill {
   background-color: #4e4e4e;
   color: #fff;
 }
 
-.our-skill-box{
+.our-skill-box {
   padding: 70px 0 100px 0;
 }
 
-.our-skill-text{
+.our-skill-text {
   font-size: 24px;
   font-family: "Raleway";
 }
 
-.our-skill-inner{
+.our-skill-inner {
   display: flex;
   justify-content: center;
   margin-top: 60px;
 }
 
-.our-skill-inner li{
+.our-skill-inner li {
   margin-left:  180px;
 }
 
-.our-skill-inner li:first-child{
+.our-skill-inner li:first-child {
   margin-left: 0;
 }
 
-.our-skill-inner p{
+.our-skill-inner p {
   font-size: 16px;
   margin-top: 10px;
 }
 
-.fab{
+.fab {
   font-size: 50px;
 }
+
 .nav {
   background-color: #f5f5f5;
+  font-size: 0;
 }
 
-.nav-inner{
+.nav-inner {
   padding: 200px 0;
 }
 
-.nav-inner li{
+.nav-inner li {
   list-style: none;
   display: inline-block;
   transition:all 0.3s;
@@ -229,93 +231,98 @@ main {
   cursor:pointer;
 }
 
-.nav-inner li a{
+.nav-inner li a {
   display: block;
   height: 100%;
   padding: 20px 0;
   color: #74cfae;
 }
 
-.nav li:hover{
+.nav li:hover {
   background-color: #fff; 
 }
 
-.footer{
+.footer {
   background-color: #74cfae;
   color: #fff; 
 }
 
-.footer-inner{
+.footer-inner {
   padding:20px 0 25px 0;
 }
 
-.footer-text{
+.footer-text {
   float: right;
 }
 
-@media screen and (max-width:1199px){
-  .inner{
+@media screen and (max-width:1199px) {
+  .inner {
     width: 97%;
   }
-  .section-inner{
+
+  .section-inner {
     padding-bottom: 25px;
   }
 
-  .section-inner-box{
+  .section-inner-box {
     width: 100%;
     float: none;
   }
 
-  .section-inner-text{
+  .section-inner-text {
     float: none;
     width: 100%;
     margin-top: 20px;
   }
 
-  .article-inner-box-inner{
+  .article-inner-box-inner {
     float: none;
     margin: 0;
   }
 
-  .article-inner-box li:nth-child(4){
+  .article-inner-box img {
+    vertical-align: bottom;
+  }
+
+  .article-inner-box li:nth-child(3n+4) {
     margin-top: 80px;
   }
 
-  .article-inner-footer{
+  .article-inner-footer {
     flex-direction: column;
     margin-top: 80px;
   }
 
-  .article-inner-footer-text{
+  .article-inner-footer-text {
     width: 100%;
   }
   
-  .mail{
+  .mail {
     margin-left: 0;
     margin-top: 40px;
   }
 
-  .our-skill-box{
+  .our-skill-box {
     padding: 70px 0 100px 0;
   }
   
-  .our-skill-inner{
+  .our-skill-inner {
     flex-direction: column;
   }
   
-  .our-skill-inner li{
+  .our-skill-inner li {
     margin-left:  0;
     margin-top: 88px;
   }
 
-  .our-skill-inner li:first-child{
+  .our-skill-inner li:first-child {
     margin-top: 0;
   }
 }
 
-@media screen and (max-width:767px){
-  
-  .botton{
+@media screen and (max-width:767px) {
+
+  .button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,9 +331,9 @@ main {
     border: 1px solid #ddd;
   }
 
-  .botton span,
-  .botton span:before,
-  .botton span:after {
+  .button span,
+  .button span:before,
+  .button span:after {
     content: '';
     display: block;
     height: 3px;
@@ -335,37 +342,34 @@ main {
     position: absolute;
   }
 
-  .botton span:before {
+  .button span:before {
     bottom: 8px;
   }
 
-  .botton span:after {
+  .button span:after {
     top: 8px;
   }
 
+  .button:hover {
+    display: none;
+  }
 
-  .title-inner{
+
+  .title-inner {
     padding: 160px 0 130px;
   }
 
-  .title-inner-text h1{
+  .title-inner-text h1 {
     font-size: 80px;
   }
 
-  .nav-inner{
+  .nav-inner {
     padding: 50px 0;
   }
   
-  .nav-inner li{
-    list-style: none;
-    display: inline-block;
+  .nav-inner li {
     width: 100%;
   }
-  
-  .nav-inner li a{
-    display: block;
-    height: 100%;
-    padding: 20px 0;
-  }
+
 }
 
