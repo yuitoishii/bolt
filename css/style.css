@@ -38,7 +38,7 @@ body {
   padding: 15px 0;
 }
 
-.fas {
+.header-inner i {
   font-size: 50px;
 }
 
@@ -213,10 +213,6 @@ main {
   margin-top: 10px;
 }
 
-.fab {
-  font-size: 50px;
-}
-
 .nav {
   background-color: #f5f5f5;
   font-size: 0;
@@ -224,6 +220,10 @@ main {
 
 .nav-inner {
   padding: 200px 0;
+}
+
+.nav-inner i {
+  font-size: 50px;
 }
 
 .nav-inner li {
@@ -330,35 +330,30 @@ main {
   }
 
   .button-sp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
     border-radius: 4px;
     padding: 10px;
-    height: 20px;
+    height: 23px;
     width: 35px;
     float: right;
-    background-color: #fff;
     border: 1px solid #ddd;
   }
 
-  .button-sp span,
-  .button-sp span:before,
-  .button-sp span:after {
-    content: '';
-    display: block;
-    height: 3px;
-    width: 25px;
-    background-color: #ddd;
+  .button-sp span {
     position: absolute;
+    height: 3px;
+    width: 35px;
+    background-color: #ddd;
   }
 
-  .button-sp span:before {
-    bottom: 8px;
+  .button-sp span:first-child {
+    top: 10px;
   }
-
-  .button-sp span:after {
-    top: 8px;
+  .button-sp span:nth-child(2) {
+    top: 20px;
+  }
+  .button-sp span:last-child {
+    top: 30px;
   }
 
   .title-inner {
