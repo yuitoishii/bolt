@@ -325,18 +325,26 @@ main {
 
 @media screen and (max-width:767px) {
 
-  .button{
+  .button {
+   display: none;
+  }
+
+  .button-sp {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    padding: 10px;
+    height: 20px;
+    width: 35px;
+    float: right;
     background-color: #fff;
     border: 1px solid #ddd;
   }
 
-  .button span,
-  .button span:before,
-  .button span:after {
+  .button-sp span,
+  .button-sp span:before,
+  .button-sp span:after {
     content: '';
     display: block;
     height: 3px;
@@ -345,16 +353,12 @@ main {
     position: absolute;
   }
 
-  .button span:before {
+  .button-sp span:before {
     bottom: 8px;
   }
 
-  .button span:after {
+  .button-sp span:after {
     top: 8px;
-  }
-
-  .button:hover {
-    color: #fff;
   }
 
   .title-inner {
